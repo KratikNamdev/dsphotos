@@ -1,0 +1,145 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+}
+.conten{
+    height: auto;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    width: 50%;
+    height: auto;
+    background-color: #FFF;
+}
+.cover{
+    width: 100%;
+}
+.cover img{
+    width: 100%;
+}
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: relative;
+    z-index: 0;
+    padding: 50px;
+    background-image: url(./Assets/1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #00A0C2;
+
+}
+.pro p{
+    font-weight: 300;
+    color: rgb(167, 167, 167);
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: -120px;
+ padding: 20px;
+ text-align: center;
+}
+.profile img{
+
+    height: 100%;
+    width: 100%;
+    
+}
+.iconback{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #F1EFEF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconback i{
+    color: #00A0C2;
+    font-size: 20px;
+}
+.connect-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.socialheading{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.socialheading h1{
+    background-color: #F1EFEF;
+ padding: 6px 30px 6px 30px;
+ border-radius: 30px;
+ font-weight: 400;
+ font-size: 25px;
+}
+.connect-head{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #00A0C2;
+}
+.desc{
+    padding: 30px;
+}
+.desc p{
+    color: #B4B4B3;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-size: cover;
+background-image: url(./Assets//Descargar\ plantilla\ de\ fondo\ con\ diseño\ de\ patrón\ de\ mandala\ gratis.jpeg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1EFEF;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+}
+@media(max-width:500px){
+    .main{
+        width: 100%;
+    }
+}
+.cp{
+    padding-top: 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+
+}
