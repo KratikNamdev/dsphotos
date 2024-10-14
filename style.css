@@ -33,7 +33,7 @@
     background-image: url(./Assets/1.1.jpg);
     background-size: cover;
     background-position: center;
-    border: 5px solid #00A0C2;
+    border: 5px solid #948276;
 
 }
 .pro p{
@@ -68,7 +68,7 @@
 }
 
 .iconback i{
-    color: #00A0C2;
+    color: #948276;
     font-size: 20px;
 }
 .connect-icons{
@@ -103,7 +103,7 @@
     font-weight: 400;
     font-size: 25px;
     margin-top: 30px;
-    color: #00A0C2;
+    color: #948276;
 }
 .desc{
     padding: 30px;
